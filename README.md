@@ -6,6 +6,9 @@
 
 This project is a PDF text extraction and question-answering system built using Streamlit, ChromaDB, and Google Generative AI. It extracts text from PDFs, processes it into chunks, stores it in a vector database, and enables users to query the content for relevant information. It also includes advanced retrieval techniques for improving the quality of search results.
 
+# Demo
+![Demo][rag_gemini_strmlt.png]
+
 # Setup and Installation
 Prerequisites
 
