@@ -59,6 +59,7 @@ def project_embeddings(embeddings, umap_transform):
     for i, embedding in enumerate(tqdm(embeddings)): 
         umap_embeddings[i] = umap_transform.transform([embedding])
     return umap_embeddings
+
 import re
 def split_text(text:str):
     split_text = re.split('\n',text)
